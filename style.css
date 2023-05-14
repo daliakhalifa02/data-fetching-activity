@@ -11,11 +11,14 @@ body{
 }
 
 .card{
-    align-items: center;
     background-color: #1d1d1d;
-    padding: 40px;
+    padding: 20px;
     border-radius: 10px;
     margin-bottom: 40px;
+    max-width: 20em;
+    min-height: 14em;
+    height: 100%;
+    width: 100%;
 }
 
 #users{
@@ -25,7 +28,8 @@ body{
 }
 
 h2{
-    color: #B68E26
+    color: #B68E26;
+    text-align: center;
 }
 
 p{
